@@ -1,0 +1,46 @@
+Lộ trình học từ kì 5 - 9
+1. cuối kì 5 - xét điều kiện thực tấp
+- Tuần 16
+  + Rớt k quá 2 môn thì mới vào kì 6
+  + K đủ tiêu chuẩn đi thực tập -> k vào kì 7 8 9
+2. Kì 6 thực tập ở doanh nghiệp - 4 tháng ở doanh nghiệp
+- Phải hoàn thành thực tập mới có tkb kì 7 8 9
+3. Kì 7 8 9
+- Block 3w mở môn học vượt để kì 9 ít môn nhất để làm khóa luận tốt nghiệp
+- Capstone project: làm 1 app trong 14 tuần cùng team (4-5), báo cáo trước hội đồng 5 người, ra trường
+Tuần 13, 14 FAP luôn thông báo mời đi nghe báo cáo bảo vệ đồ án
+4. Kì 6
+- Chuẩn bị gì để vào doanh nghiệp
+  + Kiến thức nền tảng: OOP, database, framework, FE,BE, CTDL & GT, thiết kế phần mềm (Design pattern)
+      Lợi thế: AI (Ứng dụng AI - APP nhận diện hình ảnh, dùng model làm app)
+  + CV: Hồ sơ năng lực, có kĩ năng, kiến thức gì 
+      Tuần 6: review CV ( tối đa 5)
+      Tuần 9/10: Nộp CV cho trường
+  + Kĩ năng trả lời phỏng vấn
+=============================================================================================================================
+1. Tài nguyên 
+- GitHub
+2. Thi
+- Quiz
+- Thuyết trình/Assignment/project nhóm
+- Thi PE - viết luận giống swe
+- Thi TE - Xin source : MC
+=========================================PE
+Câu hỏi
+1. Hoàn thiện tài liệu SRS
+2. Vẽ use case diagram. bao gồm include và extend
+3. Trả lời các câu hỏi về sơ đồ use case (khái niệm, quy tắc, cú pháp)
+4. Điền vào phiếu mô tả chi tiết hoạt động vận hành của 1 tính năng (1 use case) - use case description
+5. Liệt kê Functional reqs, nonfunctional regs
+7. Vẽ sơ đồ context diagram. organization chart
+8. Liệt kê .... business rules - quy tắc nghiệp vụ
+===============================================Use case description=======================================================
+- Use case đủ dễ hiểu nhưng k nói chi tiết cách vận hành => cần phiếu mô tả chi tiết 
+UCD (Use case description) thường viết theo template có sẵn
+==============================================Business rules============================
+- Là những câu phát biểu của khách hàng	về những quy tắc trong doanh nghiệp. Nói về cách họ xử lý công việc như thế nào, biến thành những if else trong code , để định hướng cách xử của mỗi màn hình, khác nhau theo các cty khác nhau
+VD:
+ - Account mới đăng kí vào app có age - tuổi >= 13
+ - Mã số đơn hàng có format: YY/MM/DD
+ - K/H k đc đặt quá 3 booking/ngày
+

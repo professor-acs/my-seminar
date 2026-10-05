@@ -1,0 +1,59 @@
+Use case:
+- Là 1 sơ đồ danh sách các ng dùng, các actor cso tương tác vói pp
+- Danh sách các tính năng của phần mềm
+- Actor nào tương tác với tính năng nào
+- Dùng cho giai đoạn requirements, tìm kiếm/xác định yêu cầu phần mèm và hệ thống hóa tính năng phần mềm sẽ làm
+Các thành phần 
+- System boundary
+  Kí hiệu là hình chữ nhật, bên tronh có tên app ở trên cùng
+  ĐẠI DIỆN CHO cái mình đang viết cho khách hàng
+  chứa bên trong các tính năng (use case)
+  giúp xác định phạm vi (scope) của bài toán
+  
+  
+- Actors
+  Kí hiệu hình  người que, đại diện cho: 
+    + Con người: role xài tính năng của app, cung cấp info vàoapp để app xử lý, nhận thông tin app trả về
+  **Dùng danh từ chung cho role chứ kh dùng danh từ riêng
+    + App khác (bên khác): nếu app có sử dụng, tươngg tác với các app khác như Momo, VNPay, actor vẫn thể hiện trog trườg hợp này
+    + Actor đặc biệt: _ System handler: Hế thống tự app, tự run, tự làm việc gì đó. Tíng năng tự động hóa, ko có ng tác độg vào khi run
+
+- Use case
+  Tình huống xài app, sử dụng app của ng dùng 
+  Là tính năng của phần mềm, 1 tình huống xài app của phần mềm
+  Ở trong boundary 
+  Kí hiệu hình oval, elipse
+  Dùng verb + noun để biểu diễn	
+- Link
+  Các nét nối
+  Actor ------------ Use case
+  Actor -----------|> Actor
+      (Generalization)
+
+
+  Use case --------|> Use case
+	(Generalization): Kế thừa
+  Use case --------> Use case
+           (Include)
+  Use case <-------- Use case
+           (Extend)
+
+
+
+
+============================================================================================
+Actor -----------|> Actor
+      (Generalization)
+Dùng để giảm nét giao cắt trong sơ đồ, khi 2 hay  nhiều actor có xài chung những tính năng
+
+============================================================================================
+ Use case --------|> Use case
+	(Generalization): Kế thừa
+Gom các tính năng kế thừa. VD: Withdraw
+                               Transfer                     ---------------------- Make transaction
+                               Create order                                 
+============================================================================================
+Use case --------> Use case
+           (Include) -> Mối qh ràng buộc
+  Use case <-------- Use case
+           (Extend) -> Mối qh lỏng lẻo, có thể có hoặc không

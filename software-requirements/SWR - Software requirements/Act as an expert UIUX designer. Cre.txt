@@ -1,0 +1,29 @@
+Act as an expert UI/UX designer. Create a modern, high-converting Web landing page for "JC-TICKET", an online ticketing and crowd management platform specialized for Japanese pop-culture events (Anime, Cosplay, Game conventions).
+
+**Design Style & Vibe:**
+- Style: Energetic, youth-centric (Gen Z target audience), clean, and tech-forward but heavily inspired by Japanese pop-culture and Anime aesthetics.
+- Colors: Deep Navy Blue background (for a modern night-festival vibe), with Sakura Pink and Vibrant Orange as primary accent colors for buttons and highlights.
+- Typography: Use "Poppins" for bold, catchy headings and "Inter" for clean, readable body text.
+
+**Page Structure & User Flow:**
+1. Navigation Bar: "JC-TICKET" logo on the left. Navigation links: [Home, Explore Events, Community]. Include a prominent "Customer" portal access button on the top right.
+2. Hero Section: 
+   - Headline: "Authentic, Fun & Accessible FES Experiences."
+   - Sub-headline: "Skip the long queues. Book time-slots and check-in under 5 seconds with QR/RFID."
+   - Primary CTA: "Explore FES Activities".
+   - Background: A vibrant, high-quality placeholder image of an anime convention or Japanese cultural festival.
+3. How It Works (User Flow): A clear 4-step horizontal process: 
+   - Step 1: Browse Events & Reviews.
+   - Step 2: Select Tickets & Time-Slot.
+   - Step 3: Secure Payment (ZaloPay/MoMo).
+   - Step 4: Scan QR Ticket at the gate.
+4. Key Features Grid (3 Columns):
+   - "Lightning Fast Check-in": Icon of a QR code. Focus on ending 1-hour queues.
+   - "Time-Slot Entry": Icon of a clock. Focus on crowd flow optimization.
+   - "Community Driven": Icon of people/stars. Focus on authentic reviews and fan interactions.
+5. Footer: Simple footer with links for Event Organizers, support, and social media icons.
+
+**Technical Constraints:**
+- Apply strict Auto Layout for all frames, cards, and sections.
+- Use a 12-column responsive desktop grid.
+- Ensure all interactive elements (buttons, cards) have high contrast and clear visual hierarchy.
